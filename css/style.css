@@ -151,19 +151,30 @@ iframe {
   box-shadow: 0em 0em 2em rgb(0, 238, 255);
 }
 
-.maps-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-#map-container {
-  text-align: center; /* Align content in the center horizontally */
-  margin-top: 2em; /* Adjust margin as needed */
+.maps-section {
+  box-shadow: 0em 0em 2em rgb(187, 127, 214);
 }
 
 #map {
-  height: 30em; /* Set a fixed height for the map */
-  width: 70%; /* Adjust the width as needed */
-  display: inline-block; /* Set display to inline-block */
+  height: 35em;
+  width: 100%;
+  display: inline-block;
+}
+
+.button {
+  width: 12em;
+  height: 6em;
+  background-color: rgb(187, 127, 214);
+  color: white;
+  text-align: center;
+  line-height: 6em;
+  margin-left: 3em;
+  margin-right: 3em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: inline-block; /* Display buttons as inline-block */
+  border-radius: 1em;
+}
+.button:hover {
+  background-color: #2980b9;
 }
