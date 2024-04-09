@@ -150,3 +150,9 @@ iframe {
 .games-section {
   box-shadow: 0em 0em 2em rgb(0, 238, 255);
 }
+
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+  height: 100%;
+}
