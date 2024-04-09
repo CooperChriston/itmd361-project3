@@ -1,0 +1,152 @@
+/* Text CSS */
+p {
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1em;
+  padding: 0.1em;
+}
+
+h1, h2, h3, li {
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 1em;
+  padding: 0.1em;
+}
+
+.games-body h1 {
+  font-size: 2.5em;
+}
+
+.games-body h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+li {
+    text-align: left;
+}
+
+#resume-header {
+  padding: 1em;
+  background-color: #b3e3ff;
+  border-radius: 1em;
+  font-size: 2em;
+}
+
+.resume-h2 {
+  color: #24afff;
+  font-size: 1.7em;
+}
+
+.games-body h2 {
+  background-color: #b3e3ff;
+  border-radius: 1em;
+  padding: 0.5em;
+}
+
+/* Navigation CSS */
+nav {
+  text-align: center;
+}
+
+nav {
+  background-color: #333;
+  margin-bottom: 2em;
+}
+  
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+  
+nav ul li {
+  display: inline;
+}
+  
+nav ul li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 1em 2em;
+}
+  
+nav ul li a:hover {
+  background-color: #555;
+}
+
+  /* Body CSS */
+body {
+  text-align: center;
+}
+
+.resume-body {
+  background-image: url(../images/codeBackground.jpg);
+}
+
+.games-body {
+  background-image: url(../images/pixelBackground.png);
+  background-size: contain;
+  background-position: center;
+}
+
+/* Section CSS */
+section {
+  background-color: #e9e9e9;
+  padding: 1.5em;
+  border-radius: 1em;
+  box-shadow: 0.5em 0.5em 2em rgba(0, 0, 0, 0.3);
+  margin: 3em auto;
+  max-width: 70rem;
+}
+
+.gallery {
+  overflow-x: auto;
+  white-space: nowrap;
+  margin: 1em;
+}
+  
+.gallery-item {
+  display: inline-block;
+  margin-right: 5em;
+  margin: 1.5em;
+  box-shadow: 0.1em 0.1em 1em rgba(0, 0, 0, 1);
+}
+  
+.gallery-item img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.resume-section div {
+  background-color: #e0e0e0;
+  margin-left: 3em;
+  margin-right: 3em;
+  border-radius: 1em;
+}
+
+.resume-section p, .resume-section li {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin: 1em;
+}
+
+.resume-section ul {
+  margin: 0.5em;
+}
+
+/* Media CSS */
+iframe {
+  margin-bottom: 1em;
+}
+
+.games-body img {
+  margin-bottom: 2em;
+  box-shadow: 0.5em 0.5em 2em rgba(0, 0, 0, 0.3);
+}
+
+.games-section {
+  box-shadow: 0em 0em 2em rgb(0, 238, 255);
+}
